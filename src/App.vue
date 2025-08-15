@@ -1,7 +1,7 @@
 <!-- src/App.vue -->
 <script setup lang="ts">
 import { RouterLink, RouterView, useRoute } from 'vue-router'
-import logoUrl from '@/assets/image/logo.png'
+import logoUrl from '@/assets/image/logo.PNG'
 import BaseToast from '@/components/BaseToast.vue' // ⬅️ เพิ่ม
 import { SpeedInsights } from "@vercel/speed-insights/vue"
 import GlobalLoading from '@/components/GlobalLoading.vue'
