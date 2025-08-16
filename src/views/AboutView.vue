@@ -9,13 +9,26 @@ const videoUrl  = ''  // add your video link
 
 <template>
   <section class="mx-auto max-w-3xl space-y-6">
-    <!-- Intro -->
-    <header class="text-center">
-      <h1 class="text-3xl font-extrabold text-[#2c3e50]">About ABCnews</h1>
-      <p class="text-gray-600 mt-2">
-        Group Name: <b>ABCnews</b>
-      </p>
-    </header>
+   <!-- Intro -->
+<header class="text-center flex flex-col items-center gap-3">
+
+  <!-- Title -->
+  <h1 class="text-2xl sm:text-3xl font-extrabold text-[#2c3e50]">
+    About ABCnews
+  </h1>
+    <!-- Logo -->
+  <img
+    src="@/assets/image/logo.PNG"
+    alt="ABCnews Logo"
+    class="w-40 h-40 sm:w-20 sm:h-20 object-contain"
+  />
+
+  <!-- Description -->
+  <p class="text-gray-600 text-sm sm:text-base max-w-prose px-2">
+    Group Name: <b>ABCnews</b>
+  </p>
+</header>
+
 
     <!-- Project description -->
     <div class="rounded-2xl border bg-white p-6 shadow-sm">
